@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "ppylttry"
+version = "0.1.0"
+description = ""
+authors = ["Peter Vida <petike997@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+matplotlib = "^3.4.2"
+pandas = "^1.2.4"
+lxml = "^4.6.3"
+
+[tool.poetry.dev-dependencies]
+mypy = "^0.812"
+yapf = "^0.31.0"
+jupyter-server = "^1.7.0"
+ipykernel = "^5.5.5"
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
